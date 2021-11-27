@@ -65,5 +65,5 @@ LIMIT 3;
 --The expected result of this query on your database is:
 title	                      album	                                   artist
 A Boy Named Sue (live)	      The Legend Of Johnny Cash	               Johnny Cash
-A Brief History of Packets	  Computing Conversations	IEEE           Computer Society
+A Brief History of Packets	  Computing Conversations	               IEEE Computer Society
 Aguas De Marco	              Natural Wonders Music Sampler 1999	   Rosa Passos
