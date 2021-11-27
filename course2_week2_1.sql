@@ -42,7 +42,7 @@ CREATE TABLE track_raw
     
 
 -- The expected result of this query on your database is:
-track	                      album
+track	                     album
 A Boy Named Sue (live)	     The Legend Of Johnny Cash
 A Brief History of Packets   Computing Conversations
 Aguas De Marco	             Natural Wonders Music Sampler 1999
