@@ -1,12 +1,13 @@
+-- Reverse Index (with stop words) in SQL
+--  create a table of documents and then produce a reverse index with stop words for those documents that identifies each document which contains a particular word using SQL.
+
+
 CREATE TABLE docs02 (id SERIAL, doc TEXT, PRIMARY KEY(id));
 
 CREATE TABLE invert02 (
   keyword TEXT,
   doc_id INTEGER REFERENCES docs02(id) ON DELETE CASCADE
 );
-
--- Reverse Index (with stop words) in SQL
---  create a table of documents and then produce a reverse index with stop words for those documents that identifies each document which contains a particular word using SQL.
 
 INSERT INTO docs02 (doc) VALUES
 ('most used word was used is very easy for the computer'),
