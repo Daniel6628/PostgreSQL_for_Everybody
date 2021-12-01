@@ -1,5 +1,5 @@
 -- Reverse Index (with stop words) in SQL
---  create a table of documents and then produce a reverse index with stop words for those documents that identifies each document which contains a particular word using SQL.
+-- Create a table of documents and then produce a reverse index with stop words for those documents that identifies each document which contains a particular word using SQL.
 
 
 CREATE TABLE docs02 (id SERIAL, doc TEXT, PRIMARY KEY(id));
