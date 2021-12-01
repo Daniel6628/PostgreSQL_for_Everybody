@@ -1,3 +1,4 @@
+-- Reverse Index in SQL
 -- create a table of documents and then produce a reverse index for those documents that identifies each document which contains a particular word (lower case) using SQL.
 
 CREATE TABLE docs01 (id SERIAL, doc TEXT, PRIMARY KEY(id));
